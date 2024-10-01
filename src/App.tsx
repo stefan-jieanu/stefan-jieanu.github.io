@@ -5,17 +5,22 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <h1>Blog</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+    <div className='container flex mx-auto align-center justify-between'>
+      <div>
+        <h1 className='text-4xl text-blue-600 font-mono'>Blog</h1>
+        <p>
+          Made with React
+        </p>
       </div>
-      <p className="read-the-docs">
-        Made with React
-      </p>
-    </>
+      <div className='flex gap-8'>
+        <p className='text-blue-800 text-4xl'>
+          L
+        </p>
+        <p className='text-gray-800 text-4xl'>
+          G
+        </p>
+      </div>
+    </div>
   )
 }
 
