@@ -13,8 +13,12 @@ body {
   /* background-color: #2e2e2e; */
 }
 
-.hero-background {
+.hero-background-desktop {
   background: linear-gradient(-80deg, #000000 50%, #d7d7d7 calc(50% + 2px));
+}
+
+.hero-background-mobile {
+  background: linear-gradient(170deg, #00000000 70%, #737373dd calc(70% + 2px));
 }
 
 /* @keyframes movingBackground {

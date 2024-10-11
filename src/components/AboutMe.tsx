@@ -42,7 +42,7 @@ export default function AboutMe() {
         <VscDebugBreakpointLog />
       </div>
       <h1 className='font-[Inter] text-4xl p-4 border-[6px] border-black w-fit mx-auto font-bold tracking-[0.8rem]'>SKILLS</h1>
-      <div className='flex justify-center py-12 gap-12'>
+      <div className='flex flex-col md:flex-row justify-center py-12 gap-12'>
         <div className='flex flex-col items-center'>
           <FaReact className='text-8xl text-[#61dbfb]' />
           <p>REACT</p>
