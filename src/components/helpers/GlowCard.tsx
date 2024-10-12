@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 
+// @ts-ignore
 const GlowCard = ({ children, identifier }) => {
   useEffect(() => {
     const CONTAINER = Array.from(document.querySelector(`.glow-container-${identifier}`) as unknown as HTMLCollectionOf<HTMLElement>);
